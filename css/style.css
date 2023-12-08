@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Estilização do começo do site */
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    padding-top:10px;
+    height: 20%;
+}
+
+/*Tamanho e direção da logo*/
+img {
+    position: relative;
+    max-width: 120px;
+    margin-left: 85px;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+
+}
+
+/*Tamanho, cor e direção do titulo*/
+.titulo {
+
+    color: #151c36;
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    padding-top: 0%;
+    margin-top: -100px;
+    margin-right: 70px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/*Tamanho do traço e direção*/
+hr {
+    display: flex;
+    border: solid black; 
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 40px;
+    display: block;
+
+
+}
+
+/*Estilização do texto abaixo do traço, Subtitulo.*/
+.subt {
+    display: flex;
+    justify-content: end;
+    margin-top: 0px;
+    margin-right: 5%;
+    padding-bottom: 5px;
+    font-size: 30px;
+    color: #485778;
+}
+.tudo {
+    display: flex;
+    width: 100%;
+}
+
+/*Estilização do textão*/
+.text {
+    width: 70%;
+    display: flex;
+    font-size: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+/*Estilização das sub informações, Informações*/
+
+
+.subs {
+
+    width: min-content;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    /*flex-direction: column;
+    justify-content: space-evenly;*/
+    margin-right: 5%;
+}
+
+/*Primeiras informações*/
+.pq {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: space-evenly;
+}
+
+/* Fale conosco e sua div*/
+.fale {
+    padding-right: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    columns: 2;
+    column-span: all;
+    margin-top: 20px;
+}
+
+.sbr {
+    width: 200px;
+    margin-top: -117px;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+/* tópicos e sua div*/
+.top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: flex-end;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+/*Espaçamento das informações*/
+.esp {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+p{
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
+.titPq{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.titTp{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;;
+}
+.titPq,.titTp{
+    color: #697a98;
+}
